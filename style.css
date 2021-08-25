@@ -149,3 +149,10 @@ h3 {
     background: #C1C1C1;
     margin-top: 24px;
 }
+#special {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: none;
+    color: #237743;
+}
