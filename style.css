@@ -30,8 +30,7 @@ h3 {
 }
 .form_feed {
   width: 576px;
-  margin-left: 50px;
-  margin-top: 20px;
+  margin: 50px auto;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
@@ -113,7 +112,8 @@ h3 {
 }
 .field_text {
   font-family: "Roboto";
-  width: 100%;
+  max-width: 544px;
+  min-width: 544px;
 }
 .header_part {
   display: flex;
@@ -151,14 +151,7 @@ h3 {
 }
 #special {
   font-size: 25px;
-  font-weight: 500;
-  font-style: italic;
-  text-decoration: none;
-  color: #237743;
+  font-weight: 700;
+  color: #227093;
   align-self: flex-start;
-}
-#special:hover {    
-  color: #2fa35b;
-  text-shadow: 2px 4px 500px;
-  transition: 00.5s;
 }
